@@ -22,8 +22,8 @@ function createPromise(position, delay) {
 function onBntCreateProm(event) {
   event.preventDefault();
 
-  const firstStep = Number(form.step.value);
-  const step = Number(form.delay.value);
+  const firstStep = Number(form.delay.value);
+  const step = Number(form.step.value);
   const amount = Number(form.amount.value);
 
   let delay = firstStep;
